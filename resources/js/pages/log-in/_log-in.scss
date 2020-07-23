@@ -1,0 +1,17 @@
+.loginPage{
+    display:flex;
+    justify-content:center;
+    &__photo{
+        background:url('/assert/login-photo.png') no-repeat;
+        position:relative;
+        width:26rem;
+        height:42rem;
+        & img{
+            position:absolute;
+        }
+    }
+    &__form{
+        width:23rem;
+    
+    }
+}
